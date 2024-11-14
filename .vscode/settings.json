@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "scss\\\\.*\\.scss",
+                "cmd": "sass ${file} ${fileBasenameNoExt}.css"
+            }
+        ]
+    }
+}
